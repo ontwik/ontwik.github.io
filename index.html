@@ -1,95 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Hackerloop landing pages -->
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Your space to share your creative Talk">
-	<meta name="author" content="Ahmad Ajmi">
+  <script src="//cdn.optimizely.com/js/PLACEYOUROWNID.js"></script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Your space to share your creative Talk">
+  <meta name="author" content="Ontwik">
 
-	<title>Ontwik</title>
-  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+  <title>Ontwik</title>
+
   <!-- Bootstrap Core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
-
   <!-- Custom CSS -->
-  <link href="css/landing-page.css" rel="stylesheet">
-
-  <!-- Custom Fonts -->
-  <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="css/custom.css" rel="stylesheet">
+  <!-- Custom Font -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
 </head>
 
 <body>
 
- <!-- Header -->
- <div class="intro-header">
-
-  <div class="container">
-
-   <div class="row">
-    <div class="col-md-8 col-md-offset-2">
-     <div class="intro-message">
-      <h2>Ontwik</h2>
-      <h3>Your space to share your creative Talk</h3>
-      <h4>Ontwik makes it easy to share and find the best and latest talks, interviews for Developers & Designers and Creatives.</h4>
-      <hr class="intro-divider">
-      <p>
-        <smal>If you want to be one of the first to know when we launch, subscribe below.</small
-          >
-        </smal>
-        <!-- Begin MailChimp Signup Form -->
-        <div id="mc_embed_signup">
-          <form action="//ahmadajmi.us3.list-manage.com/subscribe/post?u=ef1aa2a685bd8d616427917b7&amp;id=39471d3b4a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-            <div id="mc_embed_signup_scroll">
-              <div class="row">
-              <div class="col-md-9 col-md-offset-1">
-
-                  <div class="mc-field-group col-xs-12 col-sm-10 col-md-10">
-                    <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Enter You Email">
-                  </div>
-
-                  <div id="mce-responses" class="clear">
-                    <div class="response" id="mce-error-response" style="display:none"></div>
-                    <div class="response" id="mce-success-response" style="display:none"></div>
-                  </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                  <div style="position: absolute; left: -5000px;">
-                    <input type="text" name="b_ef1aa2a685bd8d616427917b7_39471d3b4a" tabindex="-1" value="">
-                  </div>
-
-                  <div class="clear col-xs-2 col-md-2">
-                    <input type="submit" value="Get Early Access" name="subscribe" id="mc-embedded-subscribe" class="btn btn btn-success">
-                  </div>
-                </div>
-              </div>
-
+  <div class="main-container">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6 content col-md-offset-3">
+          <h1 class="logo">Ontwik</h1>
+          <h3>Your space to share your creative Talk.</h3>
+          <h4>Ontwik makes it easy to share and find the best and latest talks, interviews for Developers & Designers and Creatives.</h4>
+          <p>
+            Coming Soon!
+          </p>
+          <form class="form-inline" role="form" id="mc-form">
+            <div class="form-group">
+              <input type="email" class="form-control" id="mc-email" placeholder="Enter your email">
             </div>
+            <button class="btn btn-success" type="submit">Notify Me</button>
+            <label class='mc-label'for="mc-email"></label>
           </form>
-        </div>
-        <!--End mc_embed_signup-->
 
+          <div>
+           <p>
+            <a href="https://twitter.com/ontwiik" target="_blank">
+              <img src='images/twitter-xxl.png' class="twitter-icon">
+            </a>
+          </p>
+        </div>
       </div>
-      <p>
-        <a href="https://twitter.com/ontwiik" target="_blank">
-          <i class="fa fa-twitter"></i>
-        </a>
-      </p>
-      <small>© Ontwik 2014</small>
     </div>
   </div>
-
 </div>
-<!-- /.container -->
-
-</div>
-<!-- /.intro-header -->
-
 
 <!-- jQuery Version 1.11.0 -->
-<!-- <script src="js/jquery-1.11.0.js"></script> -->
-
+<script src="js/jquery-1.11.0.js"></script>
 <!-- Bootstrap Core JavaScript -->
-<!-- <script src="js/bootstrap.min.js"></script> -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.ajaxchimp.js"></script>
+<script type="text/javascript">
+  $('#mc-form').ajaxChimp({
+    url: 'http://ahmadajmi.us3.list-manage.com/subscribe/post?u=ef1aa2a685bd8d616427917b7&amp;id=39471d3b4a'
+  });
+</script>
 
 </body>
 

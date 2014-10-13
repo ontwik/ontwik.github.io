@@ -1,0 +1,82 @@
+/*!
+ * Landing page by Hackerloop
+ */
+
+
+/*
+Typo
+*/
+
+html,body {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+h1 {
+    font-weight: bold;
+}
+
+p {
+    padding: 12px 0;
+}
+
+/*
+Left column
+*/
+
+.logo {
+  border: 2px solid white;
+  color: #fff;
+  display: inline-block;
+  font-family: Montserrat,sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  margin: 48px;
+  padding: 14px 38px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.main-container {
+    display: block;
+    text-align: center;
+    color: #fff;
+    height: 100%;
+    background: url('../images/hero.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/*
+Mailchimp form
+*/
+
+#mc-form {
+    padding: 48px 0 24px;
+}
+
+.error {
+    font-weight: 400;
+    font-size: 16px;
+    color: red;
+}
+.valid {
+    font-weight: 400;
+    font-size: 16px;
+}
+.mc-label {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.twitter-icon {
+    width: 60px;
+}
