@@ -50,6 +50,7 @@ Left column
 
 .main-container {
   display: table;
+  width: 100%;
   text-align: center;
   color: #fff;
   height: 100%;
